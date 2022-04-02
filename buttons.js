@@ -17,10 +17,10 @@
 		}
 					
 		//Get the element of the button that was clicked and highlight it
-		document.getElementsById(e.target.id).style.backgroundColor = "#2C66C4";
+		document.getElementById(e.target.id).style.backgroundColor = "#2C66C4";
 					
 		//Get all the image elements from the image gallary
-		const image = document.getElementByClassName("ImageGallary");
+		const image = document.getElementsByClassName("ImageGallary");
 						
 		//Swap the images in the image gallary according to what button was clicked
 		for(let i = 0; i < image.length; i++) {
