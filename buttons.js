@@ -17,7 +17,7 @@
 		}
 					
 		//Get the element of the button that was clicked and highlight it
-		document.getElementById(e.target.id).style.backgroundColor = "#2C66C4";
+		document.getElementsById(e.target.id).style.backgroundColor = "#2C66C4";
 					
 		//Get all the image elements from the image gallary
 		const image = document.getElementByClassName("ImageGallary");
