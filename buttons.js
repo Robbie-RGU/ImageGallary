@@ -1,4 +1,4 @@
-window.onload = function(){
+{
 
 	//Get the button elements
 	const buttons = document.getElementsByClassName("btn");
