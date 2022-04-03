@@ -1,4 +1,4 @@
-//window.onload = function() {
+document.onload = function() {
 
 	//Get the button elements
 	const buttons = document.getElementsByClassName("btn");
@@ -28,4 +28,4 @@
 			image[i].alt = `Image${i + ((e.target.id * 12) - 12) + 1}`;	
 		}
 	}
-//}
+}
