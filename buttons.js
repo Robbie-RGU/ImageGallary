@@ -20,9 +20,9 @@ window.onload = function() {
 		document.getElementById(e.target.id).style.backgroundColor = "#2C66C4";
 					
 		//Get all the image elements from the image gallary
-		const image = document.getElementsByClassName("ImageGallary");
+		const image = document.getElementsByClassName("ImageGallery");
 						
-		//Swap the images in the image gallary according to what button was clicked
+		//Swap the images in the image gallery according to what button was clicked
 		for(let i = 0; i < image.length; i++) {
 			image[i].src = `images\\image${i + ((e.target.id * 12) - 12) + 1}.png`;
 			image[i].alt = `Image${i + ((e.target.id * 12) - 12) + 1}`;	
