@@ -1,1 +1,1 @@
-# ImageGallary
+# ImageGallery
